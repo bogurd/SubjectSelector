@@ -1,0 +1,38 @@
+Sidebar (1/4 of screen){x:0, y:0, width:256, height:768}
+	Subjects
+		Subject Title
+			Colors: {Green: CAE9B4, Blue: B2DDFB, Orange: FFD4A5}
+		Subject Background
+			Blendmode: Normal, 75%
+			Colors: {Green: 7AC943, Blue: 3FA9F5, Orange: FF931E}
+	Title
+		Color: 606060
+		Blendmode: Colorburn, 75%
+	Title Background
+		Color: 8E999F
+		Blendmode: Colorburn, 100%
+	Sidebar
+		Color: E5E5E5
+		Blendmode: Hardlight, 80%
+Content (3/4 of screen){x:256, y:0, width-height:768}
+	Text Background
+		Color: F2F2F2
+		Blendmode: Softlight, 50%
+	Content Title
+		Color: 606060
+		Blendmode: Colorburn, 75%
+	Content Title Background
+		Color: D9D9D9
+		Blendmode: Colorburn, 100%
+	Content Background
+		Color: F2F2F2
+		Blendmode: Normal, 70%
+Background (all of the page)
+	Saturation Shave
+		"Layer to remove saturation"
+		Saturation, 30%
+	Luminosity Gradient
+		"Gradient to ease the background"
+		Blendmode: Luminosity, 50%
+	Color Layer
+		"Changed based on the color of the selected subject"
